@@ -1,5 +1,5 @@
 // @flow strict
-/*import { timeConverter } from '@/utils/time-converter';
+import { timeConverter } from '@/utils/time-converter';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BsHeartFill } from 'react-icons/bs';
@@ -48,7 +48,7 @@ function BlogCard({ blog, priority = false }) {
         <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6 line-clamp-3'>
           {blog.description}
         </p>
-        {/* <div className="">
+        /*{ <div className="">
           <Link target='_blank' href={blog.url}>
             <button className='bg-violet-500 text-white px-3 py-1.5 rounded-full text-xs'>
               Read More
@@ -60,4 +60,4 @@ function BlogCard({ blog, priority = false }) {
   );
 };
 
-export default BlogCard;*/
+export default BlogCard;

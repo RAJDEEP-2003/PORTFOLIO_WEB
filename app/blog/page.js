@@ -1,6 +1,6 @@
 // @flow strict
 
-/*import { personalData } from "@/utils/data/personal-data";
+import { personalData } from "@/utils/data/personal-data";
 import BlogCard from "../components/homepage/blog/blog-card";
 
 async function getBlogs() {
@@ -41,4 +41,4 @@ async function page() {
   );
 };
 
-export default page;*/
+export default page;
